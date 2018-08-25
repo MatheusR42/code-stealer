@@ -1,0 +1,21 @@
+{
+  "name": "code-stealer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "fs-extra": "^7.0.0",
+    "lodash": "^4.17.10",
+    "path": "^0.12.7",
+    "website-scraper": "^3.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "start-debug": "set DEBUG=website-scraper* && node --max-old-space-size=5120 app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
